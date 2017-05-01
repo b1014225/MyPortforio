@@ -1,0 +1,615 @@
+
+body {
+    animation: fadeIn 4s ease 0s 1 normal;
+    -webkit-animation: fadeIn 4s ease 0s 1 normal;
+    background-color: #202223;
+    margin:0;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#1a9f5a;
+}
+
+li{
+  list-style: none;
+}
+
+
+.container{
+  max-width:1300px;
+  width:100%;
+  margin:0 auto;
+  padding:0 15px;
+}
+
+.container1{
+  max-width:1000px;
+  width:100%;
+  margin:0 auto;
+  padding:0 15px;
+}
+
+
+
+#header{
+  background-color:#202223 ;
+  opacity: 0.9;
+  height:100px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1000;
+}
+
+#top-btn{
+  cursor: pointer;
+}
+
+#top-btn:hover{
+  color: #1a9f5a;
+}
+
+.header-left{
+  float:left;
+  color: white;
+}
+
+#logo{
+  float:left;
+  height:40px;
+  width:40px;
+  margin: 25px 10px 25px 0;
+}
+
+.logotext{
+  font-family: 'Times New Roman';
+  float:right;
+  font-size:30px;
+  line-height:60px;
+
+}
+
+.header-right{
+  float:right;
+}
+
+.header-right li{
+  font-family: 'Times New Roman';
+  float:left;
+  margin-left:30px;
+  font-size:20px;
+  line-height:70px;
+}
+
+.under-line{
+  padding-bottom:5px;
+  border-bottom:1px solid #1a9f5a;
+}
+
+
+
+
+
+
+#slide-wrapper {
+  text-align: center;
+  color: #5e6f84;
+  padding-top: 83px;
+}
+
+.slides {
+  padding: 0;
+}
+
+.slide{
+  display:none;
+}
+
+.active{
+  display: block;
+}
+
+
+.slide-img {
+  height:80vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.si1{
+  background-image: url("images/toppageimage.png");
+}
+
+.si2{
+  background-image: url("images/toppageimage3.png");
+}
+
+.si3{
+  background-image: url("images/toppageimage1.png");
+}
+
+.si4{
+  background-image: url("images/toppageimage4.png");
+}
+
+.si5{
+  background-image: url("images/toppageimage2.png");
+}
+
+
+
+#index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.index-btn {
+  display: inline-block;
+  background-color: gray;
+
+  width: 17px;
+  height:5px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.active-btn{
+  background-color: #1a9f5a;
+
+}
+
+.index-btn:hover {
+  background-color: #1a9f5a;
+}
+
+
+#work-wrapper{
+  height:800px;
+  padding-top: 90px;
+}
+
+.work-title{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  color: white;
+}
+
+
+
+.work-title p{
+  margin: 0;
+}
+
+.work-contents{
+  margin-top:30px;
+}
+
+
+.work-contents-detail{
+  width: 100%;
+  padding:100px 0 30px 0;
+  border-bottom: 2px dotted white;
+  overflow: hidden;
+}
+
+
+
+.detail-left{
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+}
+
+.detail-left p{
+  color: white;
+}
+
+.detail-left h2{
+  padding-left: 10px;
+  color: white;
+  border-left: 10px solid #1a9f5a;
+
+}
+
+.detail-left h1{
+  font-size: 28px;
+  margin:0;
+  color: #fff;
+  border-bottom: 2px solid #1a9f5a;
+}
+
+.detail-left ul li p{
+  margin:0 0 15px 0;
+  font-size:18px;
+}
+
+.detail-left ul li h4{
+  color: #1a9f5a;
+}
+
+.detail-left ul {
+  padding-left:0px;
+}
+
+
+
+
+
+.detail-right{
+  float:right;
+}
+
+.detail-right ul{
+  display: inline-block;
+  padding: 0;
+  width:450px;
+}
+
+.detail-right li{
+  display: inline-block;
+}
+
+#PDF_Button {
+  background-color: #1a9f5a;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top:20px;
+  padding:20px 0;
+  border-radius: 10px;
+  display:inline-block;
+  float:right;
+  font-size:25px;
+
+}
+
+#PDF_Button:hover {
+  color: #1a9f5a;
+  background-color: white;
+}
+
+
+.figure-wrapper{
+  display: inline-block;
+  margin-left: 44px;
+  margin-bottom: 40px;
+}
+.left{
+  margin-left: 0;
+}
+
+figure {
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+  height:300px;
+  margin:0;
+
+}
+figure img{
+
+  width:300px;
+  height:300px;
+}
+figcaption {
+  text-align: center;
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+  color: white;
+	-webkit-transition: .3s;
+	transition: .3s;
+  opacity: 0;
+}
+
+figcaption h3{
+  margin: 130px 0 0 0;
+  font-size:20px;
+}
+
+figcaption p{
+  margin: 5px 0 0 0;
+  font-size: 13px;
+}
+figure:hover figcaption {
+  bottom: 0;
+	left: 0;
+	opacity: 1;
+}
+
+.figure-text{
+  text-align: center;
+  background-color: rgba(26, 159, 90, 0.79);
+  width:300px;
+  box-shadow:;
+}
+
+.figure-text h2{
+  font-size: 17px;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.figure-none{
+  display: none;
+}
+
+.font{
+  font-family: "Times New Roman";
+}
+
+.button_other{
+  text-align: center;
+  padding: 0 35%;
+}
+
+
+.button_other p{
+  margin: 0;
+  background-color: rgba(26, 159, 90, 0.79);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 0 ;
+}
+
+
+.button_other p:hover{
+  background-color: white;
+  color:#1a9f5a;
+}
+
+.button_other img{
+
+  height: 20px;
+}
+
+
+
+
+#profile-wrapper{
+  height:630px;
+  padding-top: 90px;
+  overflow: hidden;
+}
+
+.profile-title{
+  text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.profile-title p{
+  margin: 0;
+}
+
+.profile-contents{
+  margin-top: 30px;
+}
+
+.profile-img{
+  height:510px;
+  width: 400px;
+  float: left;
+
+  background-image: url("images/yoshihiro.JPG");
+  background-size: cover;
+  /*border: 3px solid gray;*/
+
+}
+
+
+
+.profile-right{
+  float: right;
+  width: 500px;
+}
+
+.profile-right h2{
+  color: #1a9f5a;
+  font-size: 30px;
+  display: inline-block;
+  font-family: ;
+  margin: 0 0 15px 0;
+
+}
+
+.profile-right h3{
+  color: #1a9f5a;
+  display: inline-block;
+  margin-left: 10px;
+  font-family: "Times New Roman";
+  margin: 0;
+}
+
+.profile-right-1{
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom:10px;
+}
+
+.profile-right-1 p,h4{
+  color: white;
+  margin: 0;
+}
+
+.profile-right-1 a{
+  text-decoration: underline;
+}
+
+#footer{
+  text-align: center;
+  background:rgba(31, 33, 34, 0.84) ;
+  color: white;
+  height: 50px;
+}
+
+
+.center{
+  text-align: center;
+}
+
+.myimages{
+  display: inline-block;
+  background-image: url("images/yoshihiro.JPG");
+  background-size: cover;
+  height:300px;
+  width:300px;
+  border-radius: 200px;
+}
+
+.myname{
+  font-size: 25px;
+  color: #1a9f5a;
+
+}
+
+.myimages-detail{
+  display:inline-block;
+}
+
+
+
+.myimages-detail a{
+  text-decoration: underline;
+}
+
+
+
+.myimages-detail ul{
+  color: white;
+}
+
+.button_more{
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0 40%;
+  cursor: pointer;
+}
+
+.button_more p{
+  width: 20%;
+  padding: 10px 0;
+  background-color: rgba(26, 159, 90, 0.79);
+
+}
+
+.button_more p:hover{
+  background-color: white;
+  color:#1a9f5a;
+}
+
+
+#profile-detail-wrapper {
+  text-align: center;
+}
+
+.profile-section{
+  cursor:pointer;
+  margin-bottom:20px;
+  word-break: break-word;
+}
+
+.container2{
+  text-align: left;
+  margin-left: 120px;
+  width:1070px;
+}
+
+
+
+.section-title h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 16px;
+    color: white;
+    margin: 0 0 20px 0;
+    margin: 50px 0;
+
+}
+
+.section-title h3::before, .section-title h3::after {
+    content: "";
+    background-color: #616161;
+    display: inline-block;
+    width: 450px;
+    height: 3px;
+    margin: 0 2rem;
+    vertical-align: middle;
+}
+
+.profile-section p{
+  color: white;
+    margin: 0;
+
+}
+
+.profile-section span{
+  color: white;
+}
+
+.none-section{
+  margin-bottom: 15px;
+}
+
+.none-section li{
+  display: inline-block;
+}
+
+
+
+.harf li{
+  color: white;
+  width: 23%;
+  text-align: center;
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.harf li img{
+
+  height: 100px;
+  width: 100px;
+}
+
+
+
+.harf1 li{
+  width: 25%;
+  margin-left:50px;
+}
+
+.harf1 li img{
+  width: 300px;
+  height:200px;
+}
